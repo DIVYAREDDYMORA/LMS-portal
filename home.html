@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+        .img{
+              height: 100px;
+              width: 100px;
+              border-radius: 40%;
+              float: left;
+          }
+          .header{
+           text-align: center;
+           font-size: 27px;
+          }
+          .teddy{
+            height: 800px;
+            width: 100%;
+            animation-name: teddy;
+            animation-duration: 100s;
+            animation-iteration-count: infinite;
+          }
+          @keyframes teddy{
+            0%{
+                background-image: url('https://tse3.mm.bing.net/th?id=OIP.9R0qyQTH43ZQdFwqY2r2TAHaE8&pid=Api&P=0&h=180');
+                background-size: cover;
+            }
+            20%{
+                background-image: url('https://tse2.mm.bing.net/th?id=OIP.swx1cPx6ZgFcIs5C01PBnwHaEK&pid=Api&P=0&h=180');
+                background-size: cover;
+            }
+            40%{
+                background-image: url('https://tse3.mm.bing.net/th?id=OIP.TKziVGMgadot4JUwINii7gHaE8&pid=Api&P=0&h=180');
+                background-size: cover;
+            }
+            60%{
+                background-image: url('https://tse2.mm.bing.net/th?id=OIP.lUT1-30qnPDvBupaB0DWigHaD0&pid=Api&P=0&h=180');
+                background-size: cover;
+            }
+            80%{
+                background-image: url('https://tse1.mm.bing.net/th?id=OIP.kVWIc-gShVBOKoNOVl9JzQHaE7&pid=Api&P=0&h=180');
+                background-size: cover;
+            }
+            100%{
+                background-image: url('https://tse2.explicit.bing.net/th?id=OIP.Dg2G1arm-2g0NVXtsPNXtQHaE8&pid=Api&P=0&h=180');
+                background-size: cover;
+            }
+          }
+          .div{
+            height: 600px;
+            animation-name:div;
+            animation-duration: 100s;
+            animation-iteration-count: infinite;
+          }
+          @keyframes div {
+            0%{
+              background-image: url('https://tse3.mm.bing.net/th?id=OIP.-FMAku4tsuGmZd3P_9XgjAHaEH&pid=Api&P=0&h=180');
+              background-size: cover;
+            }
+            50%{
+              background-image: url('https://tse3.mm.bing.net/th?id=OIP.EiTiFbrXNrRLToYOzKfe3AHaFs&pid=Api&P=0&h=180');
+              background-size: cover;
+            }
+            100%{
+              background-image: url('https://tse4.mm.bing.net/th?id=OIP.97kUv4T8hQEAinmghdCSJgHaE8&pid=Api&P=0&h=180');
+              background-size: cover;
+            }
+          }
+          section{
+            text-align: center;
+            height: 800px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+          }
+          body{
+            background-image: radial-gradient(pink , lavender,gold);
+          }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://ci3.googleusercontent.com/meips/ADKq_NbX1am19_vA1KDO8MTKqOlL7tBCQ7HEKjHHfBYG3Bx8kaEDkk9rKxFuUb-b-LbjU82gSWrt8xXJBB0fAywhUqoDbYu9pGrZOzZmcaRenhgh4YEFqBpyHUhsqgzRz-DoIpIIzMk_dh9F_Wf_IXgmre1tWEvJ_yna4dIEyuxuc07Jd4ZxY_YBJ1d4UunyRPdc9ytgD-12cszZo7KgPnt4pm32NAo1qEs=s0-d-e1-ft#https://dynamic.brandcrowd.com/preview/logodraft/f36f1a6a-0e0a-452e-8ef8-fad40575fc67/image/large.png?bust=4efc742f-76ae-48cc-8209-1fc1f59ad53a" alt="" class="img">
+        <h4>テディ@レディ</h4>
+        <div class="header">
+            <h1>Teddy@Reddy</h1>
+            <h1>Online Learning Management System</h1>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">テディ@レディ</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="home.html">Home Page<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="courses.html">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Search</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Profile</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <br><br>
+      <div class="teddy"></div>
+      <h2>Build Essential Skills for Free</h2>
+      <p>The free courses we offer cover a wide array of topics, from technical skills to personal development, providing accessible education for career advancement or individual learning goals with no cost.</p>
+      <h3><center>Choose the Free Course That Aligns Best With Your Educational Goals</center></h3>
+      <h3><center>To know about the courses click on courses in the navigation bar</center> </h3>
+      <div class="div"></div>
+      <section>
+        <h2>Give A Quick Review About Your Experience </h2>
+        <div>
+          <input type="text" placeholder="Enter ur name/mail id"><br><br>
+          <input type="text" placeholder="Enter ur Review"><br><br>
+          <input type="number" placeholder="enter ur rating out of 5"><br><br>
+          <input type="file"><p>upload ur image</p><br>
+          <button onclick="button()">Submit</button>
+        </div>
+      </section>
+      <footer>
+        <div style="text-align: center; display: flex; justify-content: space-evenly;">
+            <h2>&copy; Teddy@Reddy</h2>
+            <h2>&copy; Online Learning Management System</h2>
+        </div>
+        <div style="text-align: center; display: flex; justify-content: space-evenly;">
+            <h2>&copy; All Copy Rights Are for Teddy@Reddy Website </h2>
+            <br>
+            <h2>support</h2>
+            <h2>Terms & Privacy</h2>
+        </div>
+    </footer>
+    <script>
+       function button(){
+         alert('u r review is recorded')
+       }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
